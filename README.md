@@ -126,16 +126,10 @@ java -version
 
 You do not need to install Gradle manually because the project includes the Gradle Wrapper.
 
-Use this command on macOS/Linux:
+Use this command:
 
 ```bash
 ./gradlew
-```
-
-Use this command on Windows:
-
-```bash
-gradlew.bat
 ```
 
 ---
