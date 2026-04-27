@@ -66,8 +66,6 @@ The automation covers the following homework scenario:
 │               ├── client
 │               │   ├── PetApiClient.java
 │               │   └── StoreApiClient.java
-│               ├── helper
-│               │   └── TestResourceHelper.java
 │               ├── model
 │               │   ├── Category.java
 │               │   ├── Order.java
@@ -102,7 +100,6 @@ The automation covers the following homework scenario:
 | `TestDataFactory` | Creates reusable test data objects |
 | `IdGenerator` | Generates unique IDs for pets and orders |
 | `DeleteHelper` | Handles DELETE retry logic and safe cleanup |
-| `TestResourceHelper` | Creates prerequisite test resources such as pets and orders |
 | `BaseApiTest` | Contains common test setup and response logging |
 | `PetApiTest` | Contains separate tests for pet endpoints |
 | `StoreOrderApiTest` | Contains separate tests for store order endpoints |
